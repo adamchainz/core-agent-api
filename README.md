@@ -313,7 +313,8 @@ that is starting.
 
 ```
 {'language':           'python',
- 'version':            '',
+ 'language_version':   '',
+ 'version':            '',  // deprecated old name for language_version
  'server_time':        datetime.utcnow().isoformat() + 'Z',
  'framework':          '',
  'framework_version':  '',
